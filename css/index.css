@@ -1,0 +1,32 @@
+.container{
+    max-width: 1280px;
+    margin: 30px auto;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 132, 255);
+}
+.selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+.choice{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+.oneProduct{
+    width: 30%;
+}
